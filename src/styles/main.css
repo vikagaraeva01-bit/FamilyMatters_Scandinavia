@@ -343,7 +343,8 @@ input:focus-visible {
 .photo-shell {
   position: relative;
   width: 100%;
-  height: clamp(18rem, 44svh, 25rem);
+  aspect-ratio: 3 / 4;
+  height: auto;
   flex: 0 0 auto;
   margin: 0;
   overflow: hidden;
@@ -464,7 +465,7 @@ input:focus-visible {
   }
 
   .photo-shell {
-    height: clamp(16rem, 42svh, 21rem);
+    height: auto;
   }
 
   .story-note {
