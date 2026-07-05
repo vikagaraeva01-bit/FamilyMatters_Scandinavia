@@ -343,7 +343,7 @@ input:focus-visible {
 .photo-shell {
   position: relative;
   width: 100%;
-  height: auto;
+  height: clamp(22rem, 52svh, 28rem);
   flex: 0 0 auto;
   margin: 0;
   overflow: hidden;
@@ -361,9 +361,8 @@ input:focus-visible {
 }
 
 .story-photo {
-  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
   opacity: 0;
   transition: opacity 900ms ease;
@@ -466,7 +465,7 @@ input:focus-visible {
   }
 
   .photo-shell {
-    height: auto;
+    height: clamp(19rem, 48svh, 24rem);
   }
 
   .story-note {
